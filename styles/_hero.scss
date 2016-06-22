@@ -1,0 +1,14 @@
+.hero {
+  padding: 4rem 0;
+
+  background: url('//images.unsplash.com/photo-1465205568425-23fdd3805e49?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=7e476dbc9096ec1c869bd2cb97d82c70')
+    no-repeat center center;
+
+  background-size: cover;
+
+  &__text {
+    color: #efefef;
+    text-align: center;
+    text-shadow: 0.1rem 0.1rem 0.2rem #333;
+  }
+}
